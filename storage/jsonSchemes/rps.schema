@@ -1,0 +1,191 @@
+{
+    "title": "RPS",
+    "type": "object",
+    "properties": {
+        "id_sis_legado": {
+            "required": false,
+            "type": ["string","null"],
+            "pattern": "^.{1,15}$"
+        },
+        "aliquota_simples": {
+            "required": false,
+            "type": ["number","null"]
+        },
+        "servico": {
+            "required": true,
+            "type": "string",
+            "pattern": "^[0-9]{1,15}$"
+        },
+        "situacao": {
+            "required": true,
+            "type": "string",
+            "pattern": "^(tp|tt|is|im|nt)$"
+        },
+        "valor": {
+            "required": true,
+            "type": "number"
+        },
+        "base": {
+            "required": true,
+            "type": "number"
+        },
+        "descricaonf": {
+            "required": false,
+            "type": ["string","null"],
+            "pattern": "^.{1,1000}$"
+        },
+        "rps_num": {
+            "required": false,
+            "type": ["string","null"],
+            "pattern": "^[0-9]{1,15}$"
+        },
+        "rps_serie": {
+            "required": false,
+            "type": ["string","null"],
+            "pattern": "^.{1,10}$"
+        },
+        "rps_dia": {
+            "required": false,
+            "type": ["integer","null"],
+            "minumum": 1,
+            "maximum": 31
+        },
+        "rps_mes": {
+            "required": false,
+            "type": ["integer","null"],
+            "minumum": 1,
+            "maximum": 12
+        },
+        "rps_mes": {
+            "required": false,
+            "type": ["integer","null"],
+            "minumum": 2017,
+            "maximum": 2200
+        },
+        "outro_municipio": {
+            "required": false,
+            "type": ["integer","null"],
+            "minumum": 0,
+            "maximum": 1
+        },
+        "cod_outro_municipio": {
+            "required": false,
+            "type": ["string","null"],
+            "pattern": "^[0-9]{7}$"
+        },
+        "retencao_iss": {
+            "required": false,
+            "type": ["number","null"]
+        },
+        "pis": {
+            "required": false,
+            "type": ["number","null"]
+        },
+        "cofins": {
+            "required": false,
+            "type": ["number","null"]
+        },
+        "inss": {
+            "required": false,
+            "type": ["number","null"]
+        },
+        "irrf": {
+            "required": false,
+            "type": ["number","null"]
+        },
+        "csll": {
+            "required": false,
+            "type": ["number","null"]
+        },
+        "tomador": {
+            "required": true,
+            "type": "object",
+            "properties": {
+                "tipo": {
+                    "required": true,
+                    "type": "integer",
+                    "minumum": 1,
+                    "maximum": 6
+                },
+                "cnpj": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^[0-9]{11,14}$"
+                },
+                "razao": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^.{1,200}$"
+                    
+                },
+                "fantasia": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^.{1,200}$"
+                },
+                "email": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^.{1,200}$"
+                },
+                "ie": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^[0-9]{6,20}$"
+                },    
+                "im": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^[0-9]{5,20}$"
+                },
+                "endereco": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^.{1,200}$"
+                },
+                "numero": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^.{1,200}$"
+                },
+                "complemento": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^.{1,200}$"
+                },
+                "bairro": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^.{1,200}$"
+                },
+                "cep": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^[0-9]{8}$"
+                },
+                "cod_cidade": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^[0-9]{7}$"
+                },
+                "fone": {
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^[0-9]{6,9}$"
+                },
+                "ramal": {
+                    "required": false,
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^[0-9]{1,6}$"
+                },
+                "fax": {
+                    "required": false,
+                    "required": false,
+                    "type": ["string","null"],
+                    "pattern": "^[0-9]{6,9}$"
+                }
+            }
+        }
+    }
+}

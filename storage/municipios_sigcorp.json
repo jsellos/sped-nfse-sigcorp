@@ -1,0 +1,98 @@
+{
+    "3109006": {
+        "municipio": "BRUMADINHO",
+        "uf": "MG",
+        "homologacao": "https://testbrumadinho.sigiss.com.br/brumadinho/ws/sigiss_ws.php",
+        "producao": "https://brumadinho.sigiss.com.br/brumadinho/ws/sigiss_ws.php"
+    },
+    "3117504": {
+        "municipio": "CONCEICAO DO MATO DENTRO",
+        "uf": "MG",
+        "homologacao": "https://testconceicaodomatodentro.sigiss.com.br/conceicaodomatodentro/ws/sigiss_ws.php",
+        "producao": "https://conceicaodomatodentro.sigiss.com.br/conceicaodomatodentro/ws/sigiss_ws.php"
+    },
+    "3303906": {
+        "municipio": "PETROPOLIS",
+        "uf": "RJ",
+        "homologacao": "https://testpetropolis.sigiss.com.br/petropolis/ws/sigiss_ws.php",
+        "producao": "https://petropolis.sigiss.com.br/petropolis/ws/sigiss_ws.php"
+    },
+    "3305109": {
+        "municipio": "SAO JOAO DE MERITI",
+        "uf": "RJ",
+        "homologacao": "https://testsaojoaodemeriti.sigiss.com.br/saojoaodemeriti/ws/sigiss_ws.php",
+        "producao": "https://saojoaodemeriti.sigiss.com.br/saojoaodemeriti/ws/sigiss_ws.php"
+    },
+    "3505500": {
+        "municipio": "BARRETOS",
+        "uf": "SP",
+        "homologacao": "https://testbarretos.sigiss.com.br/barretos/ws/sigiss_ws.php",
+        "producao": "https://barretos.sigiss.com.br/barretos/ws/sigiss_ws.php"
+    },
+    "3507506": {
+        "municipio": "BOTUCATU",
+        "uf": "SP",
+        "homologacao": "https://testbotucatu.sigiss.com.br/botucatu/ws/sigiss_ws.php",
+        "producao": "https://botucatu.sigiss.com.br/botucatu/ws/sigiss_ws.php"
+    },
+    "3511409": {
+        "municipio": "CERQUEIRA CESAR",
+        "uf": "SP",
+        "homologacao": "https://testcerqueiracesar.sigiss.com.br/cerqueiracesar/ws/sigiss_ws.php",
+        "producao": "https://cerqueiracesar.sigiss.com.br/cerqueiracesar/ws/sigiss_ws.php"
+    },
+    "3522604": {
+        "municipio": "ITAPIRA",
+        "uf": "SP",
+        "homologacao": "https://testitapira.sigiss.com.br/itapira/ws/sigiss_ws.php",
+        "producao": "https://itapira.sigiss.com.br/itapira/ws/sigiss_ws.php"
+    },
+    "3529005": {
+        "municipio": "MARILIA",
+        "uf": "SP",
+        "homologacao": "https://testmarilia.sigiss.com.br/marilia/ws/sigiss_ws.php",
+        "producao": "https://marilia.sigiss.com.br/marilia/ws/sigiss_ws.php"
+    },
+    "3530706": {
+        "municipio": "MOGI GUACU",
+        "uf": "SP",
+        "homologacao": "https://testmogiguacu.sigiss.com.br/mogiguacu/ws/sigiss_ws.php",
+        "producao": "https://mogiguacu.sigiss.com.br/mogiguacu/ws/sigiss_ws.php"
+    },
+    "3554805": {
+        "municipio": "TREMEMBE",
+        "uf": "SP",
+        "homologacao": "https://testtremembe.sigiss.com.br/tremembe/ws/sigiss_ws.php",
+        "producao": "https://tremembe.sigiss.com.br/tremembe/ws/sigiss_ws.php"
+    },
+    "4101606": {
+        "municipio": "ARAPOTI",
+        "uf": "PR",
+        "homologacao": "https://testarapoti.sigiss.com.br/arapoti/ws/sigiss_ws.php",
+        "producao": "https://arapoti.sigiss.com.br/arapoti/ws/sigiss_ws.php"
+    },
+    "4105508": {
+        "municipio": "CIANORTE",
+        "uf": "PR",
+        "homologacao": "https://testcianorte.sigiss.com.br/cianorte/ws/sigiss_ws.php",
+        "producao": "https://cianorte.sigiss.com.br/cianorte/ws/sigiss_ws.php"
+    },
+    "4126256": {
+        "municipio": "SARANDI",
+        "uf": "PR",
+        "homologacao": "https://testsarandi.sigiss.com.br/sarandi/ws/sigiss_ws.php",
+        "producao": "https://sarandi.sigiss.com.br/sarandi/ws/sigiss_ws.php"
+    },
+    "4315602": {
+        "municipio": "RIO GRANDE",
+        "uf": "RS",
+        "homologacao": "https://testriogrande.sigiss.com.br/riogrande/ws/sigiss_ws.php",
+        "producao": "https://riogrande.sigiss.com.br/riogrande/ws/sigiss_ws.php"
+    },
+    "0000000": {
+        "municipio": "VALADARES",
+        "uf": "MG",
+        "homologacao": "https://testvaladares.sigiss.com.br/valadares/ws/sigiss_ws.php",
+        "producao": "https://valadares.sigiss.com.br/valadares/ws/sigiss_ws.php"
+    }
+}
