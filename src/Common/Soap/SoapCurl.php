@@ -78,7 +78,7 @@ class SoapCurl extends SoapBase implements SoapInterface
                 if (!empty($this->temppass)) {
                     curl_setopt($oCurl, CURLOPT_KEYPASSWD, $this->temppass);
                 }
-            }    
+            }
             curl_setopt($oCurl, CURLOPT_RETURNTRANSFER, true);
             if (! empty($envelope)) {
                 curl_setopt($oCurl, CURLOPT_POST, true);

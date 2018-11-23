@@ -103,7 +103,6 @@ class Tools extends BaseTools
             . "<Nota xsi:type=\"xsd:int\">$nota</Nota>";
         
         return $this->send($content, $operation);
-            
     }
     
     /**
