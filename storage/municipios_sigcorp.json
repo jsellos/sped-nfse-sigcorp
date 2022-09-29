@@ -89,7 +89,7 @@
         "homologacao": "https://testriogrande.sigiss.com.br/riogrande/ws/sigiss_ws.php",
         "producao": "https://riogrande.sigiss.com.br/riogrande/ws/sigiss_ws.php"
     },
-    "0000000": {
+    "3127701": {
         "municipio": "VALADARES",
         "uf": "MG",
         "homologacao": "https://testvaladares.sigiss.com.br/valadares/ws/sigiss_ws.php",
